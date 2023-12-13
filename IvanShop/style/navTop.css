@@ -1,0 +1,94 @@
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.borderWebside {
+  width: 100vw;
+  background: #346852;
+  height: 12px;
+}
+
+.b-header__navWebsite {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .b-header__navWebsite {
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .b-header__navWebsite {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+.b-header__navWebsite_icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 76px;
+}
+
+@media (max-width: 767px) {
+  .b-header__navWebsite_icons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 0;
+  }
+}
+
+.b-iconsNaw :not(:last-child) {
+  margin-right: 30px;
+}
+
+@media (max-width: 767px) {
+  .b-iconsNaw :not(:last-child) {
+    margin-right: 0;
+  }
+}
+
+.b-iconsNaw__icon {
+  background-color: #346852;
+  padding: 10px;
+  border-radius: 20%;
+}
+
+@media (max-width: 767px) {
+  .b-iconsNaw__icon {
+    margin-top: 5px;
+    padding: 4px 6px;
+  }
+}
+
+.b-iconsNaw__icon:hover {
+  background-color: #d46d44;
+}
+
+.b-iconsNaw__icon__img {
+  width: 19px;
+  height: 19px;
+}
+
+@media (max-width: 767px) {
+  .b-iconsNaw__icon__img {
+    width: 10px;
+    height: 10px;
+  }
+}
+/*# sourceMappingURL=navTop.css.map */

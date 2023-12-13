@@ -1,0 +1,24 @@
+@import url(style/logo.css);
+@import url(style/navTop.css);
+@import url(style/photoTop.css);
+@import url(style/search.css);
+@import url(style/brands.css);
+@import url(style/catalog.css);
+@import url(style/footerContacts.css);
+@import url(style/footerSocial.css);
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.b-catalog_margin {
+  margin-bottom: 90px;
+}
+
+@media (max-width: 1139px) {
+  .b-catalog_margin {
+    margin-bottom: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
